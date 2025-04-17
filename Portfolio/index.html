@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Théo Francius</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container_cube">
+        <div class="cube">
+            <div class="face front"><a href="about.html"></a></div>
+            <div class="face back"><a href="about.html"></a></div>
+            <div class="face right"><a href="https://youtu.be/TchXB_IlPW4"></a></div>
+            <div class="face left"><a href="projets.html"></a></div>
+            <div class="face top"><a href="graphique.html"></a></div>
+            <div class="face bottom"><a href="3d.html"></a></div>
+        </div>
+    </div>
+
+    <div class="menu-container">
+        <div class="menu-cube-container" onclick="toggleMenu()">
+            <div class="menu-cube">
+                <div class="menu-face menu-front"></div>
+                <div class="menu-face menu-back"></div>
+                <div class="menu-face menu-right"></div>
+                <div class="menu-face menu-left"></div>
+                <div class="menu-face menu-top"></div>
+                <div class="menu-face menu-bottom"></div>
+            </div>
+        </div>
+        <nav class="menu-links">
+            <a href="#section1" >A propos</a>
+            <a href="#section2">Projets professionnels</a>
+            <a href="#section3" >Concours unanime</a>
+            <a href="#section4" >Production 3D</a>
+            <a href="#section5" >Motion design</a>
+            <a href="#section6" >Contact </a>
+        </nav>
+        
+    </div>
+    
+    <div class="container_box_info">
+        <div id="section1" class="box_info">
+            <div class="info_01  animate-on-scroll">
+                <div class="first_info">
+                    <h1>Théo Francius</h1>
+                    <p>Etudiant en BUT MMI</p>
+                </div>
+            </div>
+            <div class="button_container animate-on-scroll">
+                <button class="btn" onclick="window.location.href='about.html'" style="color: aliceblue;">En savoir plus</button>
+            </div>
+        </div>
+
+        <div id="section2" class="box_info">
+            <div class="info_01">
+                <div class="second_info">
+                    <h2 class="animate-on-scroll">Projets professionnels</h2>
+                    <div class="image_3 animate-on-scroll"> 
+                        <div class="cont_text"><p id="text_una">Je suis en alternance à la Communauté d'Agglomération de Coulommiers Pays de Brie, où j'ai eu l'opportunité de réaliser diverses productions, telles que des affiches et des vidéos. Si vous souhaitez en voir quelques-unes, certaines sont disponibles sur cette page.</p></div>
+                        <img src="Images/Logo Cacpb.png" style="width: 400px; height: 200px;">
+                    </div>
+                </div>
+            </div><div class="button_container animate-on-scroll">
+                <button class="btn" onclick="window.location.href='projets.html'" style="color: aliceblue;">Voir plus</button>
+            </div>
+        </div>
+
+        <div id="section3" class="box_info">
+            <div class="info_01">
+                <div class="second_info">
+                    <h2 class="animate-on-scroll">Concours unanime</h2>
+                    <div class="image_3 animate-on-scroll"> 
+                        <div class="cont_text"><p id="text_una"> J'ai remporté deux prix lors du concours Unanime 2024, sur le thème « À fonds ». Ce concours consiste à réaliser une vidéo d'une durée comprise entre 1 et 3 minutes, autour d'un thème précis. En participant, j'ai eu l'honneur de décrocher le prix de la réalisation dans la catégorie amateur ainsi que le prix du public.
+                        </p></div>
+                        <img src="Images/unanime 03.jpg" style="width: 630px; height: 360px;">
+                    </div>
+                </div>
+            </div><div class="button_container animate-on-scroll">
+                <button class="btn"><a href="https://youtu.be/TchXB_IlPW4" style="color: aliceblue;">Voir le film</a></button>
+            </div>
+        </div>
+
+        <div id="section4" class="box_info">
+            <div class="info_01">
+                <div class="second_info">
+                    <h2 class="animate-on-scroll">Production 3D</h2>
+                    <div class="image_3 animate-on-scroll"> 
+                        <div class="cont_text"><p id="text_una"> Voici une production réalisée sur Blender : une reproduction d'une chambre et d'un bureau pour une streameuse, créatrice de contenu. Ce projet a été conçu afin de réaliser une vidéo d'attente diffusée en début de stream.
+                        </p></div>
+                        <img src="Images/3D.png" style="width: 630px; height: 360px;">
+                    </div>
+                </div>
+            </div><div class="button_container animate-on-scroll">
+                <button class="btn"><a href="3d.html" style="color: aliceblue;">Voir plus</a></button>
+            </div>
+        </div>
+
+        <div id="section5" class="box_info">
+            <div class="info_01">
+                <div class="second_info">
+                    <h2 class="animate-on-scroll">Illustration</h2>
+                    <div class="image_3 animate-on-scroll"> 
+                        <div class="cont_text"><p id="text_una"> Voici quelques illustrations que j'ai réalisées en étude lors de BUT MMI, mais aussi de manière autonome. Pour ce qui est de cette image, c'est une affiche annonçant la nouvelle console de Nintendo réalisée lors de mes études.
+                        </p></div>
+                        <img src="Images/graphique 2.png" style="width: 400px; height: 400px;">
+                    </div>
+                </div>
+            </div><div class="button_container animate-on-scroll">
+                <button class="btn"><a href="graphique.html" style="color: aliceblue;">Voir plus</a></button>
+            </div>
+        </div>
+
+        <div id="section6" class="box_info">
+            <div class="info_01">
+                <div class="second_info">
+                    <h2 class="animate-on-scroll">Contacts</h2>
+                    <div class="image_3 animate-on-scroll"> 
+                        <div class="cont_text"><p id="text_una">Email : theo.francius.pro@gmail.com<br>Instagram : @theo_crayon</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="button_container animate-on-scroll" style="top: 50%; left: 35%;">
+                <button class="btn"><a href="CV FRANCIUS Théo.pdf" style="color: aliceblue;">Télécharger mon CV</a></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
